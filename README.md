@@ -12,6 +12,8 @@ To recreate the plots in the essay, please do the followings:
 
     FIG 6. Sensitivity analsysis of the 4 algorithms with respect to optimality gap
 
+    FIG 11. Cumulative Regret under uniform and non-uniform rewards. Compares both algorithms across environments.
+
 - Run fe_optimal_N.ipynb to recreate
 
     FIG 2. Fixed Exploration with optimal N as a function of log(T)
@@ -20,10 +22,10 @@ To recreate the plots in the essay, please do the followings:
 
 - To get the figures for the Non stationary MAB. Run the code "NS_UCB_MAB.ipynb”
 
-    FIG. 7: Abruptly-changing Environment (Env_1_rewards.png, Env_1_regret.png)
+    FIG 7. Abruptly-changing Environment (Env_1_rewards.png, Env_1_regret.png)
 
-    FIG. 8: Gradually-changing Environment (Env_2_rewards.png, Env_2_regret.png)
+    FIG 8. Gradually-changing Environment (Env_2_rewards.png, Env_2_regret.png)
 
-    FIG. 9: Evolution of Cumulative Regret as a function of time, with tuned hyperparameters, in abruptly-changing environment (Discounted_regret_different_gamma.png, SlidingWindow_regret_different_tau.png)
+    FIG 9. Evolution of Cumulative Regret as a function of time, with tuned hyperparameters, in abruptly-changing environment (Discounted_regret_different_gamma.png, SlidingWindow_regret_different_tau.png)
 
-    FIG 10: Evolution of Cumulative Regret as a function of time, with more no. of arms in abruptly-changing environment (Env_1_rewards_newPrices.png, Env_1_regret_newPrices.png )
+    FIG 10. Evolution of Cumulative Regret as a function of time, with different no. of arms in abruptly-changing environment (Regret_newPrices_Discounted.png, Regret_newPrices_SW.png)
